@@ -1,0 +1,19 @@
+# Private or proprietary data and generated results
+data/
+outputs/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+
+# Credentials and local environments
+.env
+.env.*
+*.key
+*.pem
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
