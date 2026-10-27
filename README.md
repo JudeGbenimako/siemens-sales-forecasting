@@ -39,10 +39,10 @@ The work was an **academic prototype**, not a production deployment or a validat
 
 ## Repository contents
 
-- `monthly_sales_forecasting.ipynb`: public reference notebook with outputs, company-specific narrative, original product-group assignments, and original dataset paths removed
-- `forecast_helpers.py`: helper functions for plotting, statistical diagnostics, and XGBoost experiments
-- `requirements.txt`: Python dependencies (versions not pinned; historical compatibility not guaranteed)
-- `.gitignore`: prevents common data files, credentials, and local outputs from being committed
+- [monthly_sales_forecasting.ipynb](monthly_sales_forecasting.ipynb) — Sales forecasting notebook.
+- [forecast_helpers.py](forecast_helpers.py) — Supporting Python functions.
+- [requirements.txt](requirements.txt) — Required Python packages.
+- [.gitignore](.gitignore) — Excludes local datasets and generated outputs.
 
 The reference notebook **does not run without authorized datasets and schema adaptation**. Original performance is not independently verified; output redaction does not establish permission to publish source code.
 
